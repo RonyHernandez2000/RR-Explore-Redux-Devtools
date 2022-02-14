@@ -23,7 +23,7 @@ const Todo = () => {
             <ul>
                 {renderItems}
             </ul>
-            <button onClick={() => dispatch(clearTodo())}>Clear</button>
+            <button Click={() => dispatch(clearTodo())}>Clear</button>
         </div>
     )
 }
